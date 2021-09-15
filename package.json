@@ -1,16 +1,17 @@
 {
-    "name": "generator-kujang",
-    "version": "0.1.9",
+    "name": "kujang-module-starter",
+    "version": "0.1.0",
     "description": "Kujang generator to build Flutter Apps",
     "keywords": [
         "yeoman-generator",
         "generator-kujang",
         "kujang",
         "openapi",
+        "kujang-module",
         "swagger",
         "flutter"
     ],
-    "homepage": "https://github.com/bhangun/generator-kujang",
+    "homepage": "https://github.com/bhangun/kujang-module-starter",
     "author": {
         "name": "bhangun hartani",
         "email": "bhangunh@kays.tech",
@@ -19,10 +20,10 @@
     "main": "generators/app/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bhangun/generator-kujang.git"
+        "url": "git+https://github.com/bhangun/kujang-module-starter.git"
     },
     "dependencies": {
-        "kujang-core": "^0.1.9"
+        "kujang-core": "^0.1.10"
     },
     "scripts": {
         "pretest": "eslint .",
@@ -36,6 +37,6 @@
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/bhangun/generator-kujang/issues"
+        "url": "https://github.com/bhangun/kujang-module-starter/issues"
     }
 }

@@ -16,11 +16,12 @@
  * limitations under the License.
  */
 
-const GenBase = require('kujang-core/core/base');
+const GenBase = require('kujang-core/core');
 
 module.exports = class extends GenBase {
     constructor(args, opts) {
         super(args, opts);
+        this.props = opts
     }
 
     prompting() {
@@ -37,7 +38,7 @@ module.exports = class extends GenBase {
 
         const done = this.async();
         this.prompt(prompts).then((props) => {
-            this.props = props;
+            this.props.module = props;
             done();
         });
     }

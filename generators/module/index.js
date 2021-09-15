@@ -15,19 +15,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-const writeFiles = require('./files').writeFiles;
 const GenBase = require('kujang-core/core');
+const writeFiles = require('./files').writeFiles;
 
 module.exports = class extends GenBase {
 
     constructor(args, opts) {
         super(args, opts);
-        this.appsName = opts.appsName
         this.props = opts
     }
 
     get writing() {
+        console.log(this.props)
         return writeFiles(this.props);
     }
 

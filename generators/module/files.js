@@ -21,9 +21,10 @@ module.exports = {
 };
 
 function writeFiles(props) {
+    console.log('--------writefiles--------')
     return {
         writeGlobalFiles() {
-            this.template('myfile.ejs', `myfile.txt`, props);
+            this.template('myfile.ejs', `myfile.txt`, this, props);
         },
     }
 }
