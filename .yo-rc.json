@@ -1,0 +1,10 @@
+{
+  "generator-kujang": {
+    "promptValues": {
+      "githubName": "bhangun",
+      "authorName": "bhangun hartani",
+      "authorEmail": "bhangunh@kays.tech",
+      "authorUrl": "https://bhangun.blogspot.com"
+    }
+  }
+}
